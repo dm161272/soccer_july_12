@@ -1,0 +1,20 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+
+    "./resources/views/auth/passwords/*.blade.php",
+    "./resources/**/*.js",
+    "./resources/**/*.vue",
+
+
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [
+      require('@tailwindcss/forms')
+    ],
+
+}
+
+
